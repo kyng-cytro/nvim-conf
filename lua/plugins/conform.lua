@@ -6,6 +6,7 @@ return {
     },
     formatters_by_ft = {
       python = { "autopep8" },
+      go = { "gofumpt", "goimports-reviser", "golines" },
     },
   },
 }
